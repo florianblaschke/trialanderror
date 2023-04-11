@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+p {
+  position: absolute;
+  left: 85px;
+  top: -5px;
+}
+.black {
+  background-color: black;
+}
