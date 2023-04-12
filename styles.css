@@ -8,11 +8,20 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: pink;
+}
+
 p {
   position: absolute;
   left: 85px;
   top: -5px;
 }
+
+.white {
+  color: white;
+}
+
 .black {
   background-color: black;
 }

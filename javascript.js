@@ -17,3 +17,14 @@ submitButton.addEventListener("click", () => {
   console.log(counter);
   document.getElementById("submit").innerHTML = counter;
 });
+
+const body = document.querySelector('[data-js="body"]');
+const bigFatButton = document.querySelector('[data-js="bigFatButton"]');
+const para = document.querySelector('[data-js="white"]');
+const paras = document.querySelector('[data-js="paras"]');
+
+bigFatButton.addEventListener("click", () => {
+  body.classList.toggle("black");
+  para.classList.toggle("white");
+  paras.classList.toggle("white");
+});
