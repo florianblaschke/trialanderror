@@ -16,7 +16,33 @@
     <button style="display: block" data-js="submitButton">Submit</button>
     <input type="text" placeholder="Muc du schreiben Mail" />
     <h2 data-js="paras" id="submit">0</h2>
-    <div style="background-color: black; height: 50vh"></div>
-    <button data-js="bigFatButton" class="bigFatButton">BIG FAT BUTTON</button>
+    <div data-js="div1"></div>
+    <button data-js="bigFatButton" class="bigFatButton" style="display: block">
+      BIG FAT BUTTON
+    </button>
+
+    <label for="slider">COLOR</label>
+    <input
+      type="range"
+      id="slider"
+      data-js="color-slider"
+      value="0"
+      max="100"
+    />
+
+    <label for="round">ROUND</label>
+    <input type="range" data-js="round-slider" value="0" max="50" />
+
+    <label for="rotate">ROTATION</label>
+    <input type="range" data-js="rotate-slider" value="0" max="360" />
+
+    <label class="disco" for="disco">DISCO</label>
+    <input
+      class="disco"
+      type="range"
+      name="disco"
+      id="disco"
+      data-js="disco-slider"
+    />
   </body>
 </html>
