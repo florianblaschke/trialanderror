@@ -73,7 +73,5 @@ disco.addEventListener("input", () => {
     hsl(${discopogo - 45}, 100%, 50%),
     hsl(${discopogo}, 100%, 50%)
   )`;
-  div.style.transform = `rotateX(${discopogo - 120}deg)`;
   div.style.transform = `rotateY(${discopogo - 120}deg)`;
-  div.style.transform = `rotateZ(${discopogo}deg)`;
 });
